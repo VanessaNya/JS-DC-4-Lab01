@@ -1,6 +1,6 @@
-// var prompt = require('prompt')
-// prompt.start()
-// prompt.get('enter your name')
+var prompt = require('prompt')
+prompt.start()
+prompt.get('enter your name')
 
 var suits = ['hearts', 'clubs', 'spades', 'diamonds']
 var ranks = ['ace', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'jack', 'queen', 'king']
@@ -82,7 +82,6 @@ while (playerOne.length !== 0 || playerTwo.length !== 0) {
 //    }
 //  }
 //
-// console.log(playerOne[0])
 
 
 // function getCard(deck) {
@@ -93,6 +92,3 @@ while (playerOne.length !== 0 || playerTwo.length !== 0) {
 // console.log(playerOne[0])
 //
 //
-// for (i = 0; playerOne[0].length; i++) {
-//   console.log('player one got '+ playerOne[0])
-// }
