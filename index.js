@@ -1,10 +1,10 @@
 // to get players userNames
-// var prompt = require('prompt')
-// prompt.start()
-// prompt.get(['playerOneUsername', 'playerTwoUsername'], function() {
-//   var playerOne = (result.playerOneUsername)
-//   var playerTwo = (result.playerTwoUsername)
-// })
+var prompt = require('prompt')
+prompt.start()
+prompt.get(['playerOneUsername', 'playerTwoUsername'], function() {
+  var playerOne = (result.playerOneUsername)
+  var playerTwo = (result.playerTwoUsername)
+})
 
 
 // cards displayed in the deck
